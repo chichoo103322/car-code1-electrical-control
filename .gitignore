@@ -1,0 +1,30 @@
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local experiments, historical snapshots, and build scratch data
+tmp/
+
+# Keil generated output and per-user settings
+MDK-ARM/car_code1/
+MDK-ARM/*.log
+MDK-ARM/*.lst
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+
+# Common embedded build products outside the main Keil output folder
+*.axf
+*.crf
+*.d
+*.dep
+*.hex
+*.lnp
+*.map
+*.o
+*.obj
